@@ -2,45 +2,33 @@
 
 ## Introduction
 
-According to Investopedia **"The stock market refers to the collection of markets and exchanges where regular activities of buying, selling, and issuance of shares of publicly-held companies take place. Such financial activities are conducted through institutionalized formal exchanges or over-the-counter (OTC) marketplaces which operate under a defined set of regulations.**  The stock markets are essentials components of a free-market economy because they enable democratized access to trading and exchange of capital for investors of all kinds. Therefore, in order to understand how does the actions of an enterprise or company behave and therefore to profit in the financial markets.
+According to Investopedia *"The stock market refers to the collection of markets and exchanges where regular activities of buying, selling, and issuance of shares of publicly-held companies take place. Such financial activities are conducted through institutionalized formal exchanges or over-the-counter (OTC) marketplaces which operate under a defined set of regulations."*  The stock markets are essentials components of a free-market economy because they enable democratized access to trading and exchange of capital for investors of all kinds. Therefore, in order to understand how does the actions of an enterprise or company behave and therefore to profit in the financial markets.
 
 The idea is to design a VBA script to perform an analysis of real stock market data by using test data and then real stock data.
 
-### Before You Begin
-
-1. Create a new repository for this project called `VBA-challenge`. **Do not add this homework to an existing repository**.
-
-2. Inside the new repository that you just created, add any VBA files you use for this assignment. These will be the main scripts to run for each analysis.
-
-### Files
-
-* [Test Data](Resources/alphabetical_testing.xlsx) - Use this while developing your scripts.
-
-* [Stock Data](Resources/Multiple_year_stock_data.xlsx) - Run your scripts on this data to generate the final homework report.
-
-### Stock market analyst
+### Stock market analysis
 
 ![stock Market](Images/stockmarket.jpg)
 
-## Instructions
+By using a sample of the stock market data within the file **`alphabetical_testing.xlsx`** a VBA code is developed. This is done to ensure that the data set is small and therefore it allows a faster test (around 3 to 5 minutes). 
 
-* Create a script that will loop through all the stocks for one year and output the following information.
+The script loops through all the stocks for one year and output the following information.
 
-  * The ticker symbol.
+* The ticker symbol.
 
-  * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+* Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
 
-  * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
+* The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
 
-  * The total stock volume of the stock.
+* The total stock volume of the stock.
 
-* You should also have conditional formatting that will highlight positive change in green and negative change in red.
+* It also includes conditional formatting that will highlight positive change in green and negative change in red.
 
-* The result should look as follows.
+* The result is similar to the one in the image below.
 
 ![moderate_solution](Images/moderate_solution.png)
 
-### CHALLENGES
+### Additional Information
 
 1. Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
 
