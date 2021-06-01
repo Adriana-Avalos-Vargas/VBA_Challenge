@@ -1,8 +1,10 @@
-# VBA_Challenge - The VBA of Wall Street
+# VBA_Challenge - The VBA of Wall Street (Stock market analysis)
 
-## Background
+## Introduction
 
-You are well on your way to becoming a programmer and Excel master! In this homework assignment you will use VBA scripting to analyze real stock market data. Depending on your comfort level with VBA, you may choose to challenge yourself with a few of the challenge tasks.
+According to Investopedia **"The stock market refers to the collection of markets and exchanges where regular activities of buying, selling, and issuance of shares of publicly-held companies take place. Such financial activities are conducted through institutionalized formal exchanges or over-the-counter (OTC) marketplaces which operate under a defined set of regulations.**  The stock markets are essentials components of a free-market economy because they enable democratized access to trading and exchange of capital for investors of all kinds. Therefore, in order to understand how does the actions of an enterprise or company behave and therefore to profit in the financial markets.
+
+The idea is to design a VBA script to perform an analysis of real stock market data by using test data and then real stock data.
 
 ### Before You Begin
 
