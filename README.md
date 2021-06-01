@@ -10,7 +10,7 @@ The idea is to design a VBA script to perform an analysis of real stock market d
 
 ![stock Market](Images/stockmarket.jpg)
 
-By using a sample of the stock market data within the file **`alphabetical_testing.xlsx`** a VBA code is developed. This is done to ensure that the data set is small and therefore it allows a faster test (around 3 to 5 minutes). 
+By using a sample of the stock market data within the file **`alphabetical_testing.xlsx`** a VBA code is developed. This is done to ensure that the data set is small and therefore it allows a faster test (around 3 to 5 minutes)
 
 The script loops through all the stocks for one year and output the following information.
 
@@ -30,31 +30,23 @@ The script loops through all the stocks for one year and output the following in
 
 ### Additional Information
 
-1. Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
+Since there are other important indicators when studying the strength of stocks in the market and the VBA code must return the following data:
+
+1. The stock with the "Greatest % increase",
+
+2. The stock with  "Greatest % decrease" 
+
+3. The stock with "Greatest total volume". 
+
+Such indicators are presentes as shown below.
 
 ![hard_solution](Images/hard_solution.png)
 
-2. Make the appropriate adjustments to your VBA script that will allow it to run on every worksheet, i.e., every year, just by running the VBA script once.
+**Note: Once the VBA scripts works on the short versión data it is important to guarantee thar the VBA script will  run on every worksheet of the complete data just by running the VBA script once. This is important since each worksheet represents a year. 
 
-### Other Considerations
+### Results
 
-* Use the sheet `alphabetical_testing.xlsx` while developing your code. This data set is smaller and will allow you to test faster. Your code should run on this file in less than 3-5 minutes.
-
-* Make sure that the script acts the same on each sheet. The joy of VBA is to take the tediousness out of repetitive task and run over and over again with a click of the button.
-
-## Submission
-
-* To submit please upload the following to Github:
-
-  * A screen shot for each year of your results on the Multi Year Stock Data.
-
-  * VBA Scripts as separate files.
-
-* After everything has been saved, create a sharable link and submit that to <https://bootcampspot-v2.com/>.
-
-- - -
-
+The VBA script is uploaded into the github repository but not the databases. The results are presented in a PDF file named *"VBA _challenge_screen_shots_AAV"*.
 ### Copyright
 
 Trilogy Education Services © 2019. All Rights Reserved.
-
